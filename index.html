@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Calc Your Weight</title>
+  </head>
+  <body>
+    <header>
+      <h1>გამოთვალე შენი სხეულის წონის ინდექსი</h1>
+    </header>
+    <div>
+      <h1 id="result"></h1>
+    </div>
+    <section class="main">
+      <form action="">
+        <label for="weight">შეიყვანე წონა</label>
+        <div id="poda">
+          <div class="glow"></div>
+          <div class="darkBorderBg"></div>
+          <div class="darkBorderBg"></div>
+          <div class="darkBorderBg"></div>
+
+          <div class="white"></div>
+
+          <div class="border"></div>
+
+          <div id="main">
+            <input
+              id="input-weight"
+              placeholder="წონა"
+              type="text"
+              name="text"
+              class="input"
+            />
+            <div id="input-mask"></div>
+            <div id="pink-mask"></div>
+          </div>
+        </div>
+        <label for="height">შეიყვანე სიმაღლე</label>
+
+        <div id="poda">
+          <div class="glow"></div>
+          <div class="darkBorderBg"></div>
+          <div class="darkBorderBg"></div>
+          <div class="darkBorderBg"></div>
+
+          <div class="white"></div>
+
+          <div class="border"></div>
+
+          <div id="main">
+            <input
+              id="height"
+              placeholder="სიმაღლე"
+              type="text"
+              name="text"
+              class="input"
+            />
+            <div id="input-mask"></div>
+            <div id="pink-mask"></div>
+          </div>
+        </div>
+        <button  class="btn">Button</button>
+      </form>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
